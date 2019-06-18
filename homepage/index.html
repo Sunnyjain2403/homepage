@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>COMPUTER SCIENCE PORTAL</title>
+  
+  
+  
+      <link rel="stylesheet" href="./style.css">
+
+  
+</head>
+
+<body>
+
+  <html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grid Test</title>
+	<link href='https://fonts.googleapis.com/css?family=Lobster+Two|Raleway|Oswald:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<header class="top-bar">
+		<input class="button" placeholder="Search..." />
+		<a class="social-link" href="/"><i class="fa fa-google-plus"></i></a>
+		<a class="social-link" href="/"><i class="fa fa-tumblr"></i></a>
+		<a class="social-link" href="/"><i class="fa fa-twitter"></i></a>
+		<a class="social-link" href="/"><i class="fa fa-linkedin"></i></a>
+		<a class="social-link" href="/"><i class="fa fa-facebook"></i></a>
+	
+	</header> 
+	<header class="main-header">
+		<div class="logo-container">
+			<p class="logo"><span></span> <span>computer science portal</span> <span></span></p>
+		</div>
+
+		<nav class="main-nav">
+			 			
+
+ 			<ul>
+				<li><a href="/">HOME</a></li>
+				<li><a href="/about">ALGO</a></li>
+				<li><a href="/join">DS</a></li>
+				<li><a href="/care">LANGUAGES</a></li>
+				<li><a href="/bite">QUIZ</a></li>
+				<li><a href="/contact">GATE</a>
+<li><a href="/contact">INTERVIEW</a></li>
+<li><a href="/contact">PRACTICE</a></li>
+
+
+			
+			</ul>
+
+		</nav>
+	</header>
+
+
+  
+
+
+
+
+
+	<section class="hero">
+		<div class="cont_centrar" style="position: relative;left:150px;top:10px;">
+
+  <div class="cont_login">
+<div class="cont_info_log_sign_up">
+      <div class="col_md_login">
+<div class="cont_ba_opcitiy">
+        
+        <h2>Sign in</h2>  
+  <p>Let's continue!</p> 
+  <button class="btn_login" onclick="cambiar_login()">Sign in</button>
+  </div>
+  </div>
+<div class="col_md_sign_up">
+<div class="cont_ba_opcitiy">
+  <h2>Register</h2>
+
+  
+  <p>A few seconds to become a member.</p>
+
+  <button class="btn_sign_up" onclick="cambiar_sign_up()">Register</button>
+</div>
+  </div>
+       </div>
+
+    
+    <div class="cont_back_info">
+       <div class="cont_img_back_grey">
+       <img src="x.jpg" alt="" />
+       </div>
+       
+    </div>
+<div class="cont_forms" >
+    <div class="cont_img_back_">
+       <img src="x.jpg" alt="" />
+       </div>
+ <div class="cont_form_login">
+<a href="#" onclick="ocultar_login_sign_up()" ><i class="material-icons">&#xE5C4;</i></a>
+   <h2>Sign in</h2>
+ <input type="text" placeholder="Email" />
+<input type="password" placeholder="Password" />
+<button class="btn_login" onclick="cambiar_login()">Sign in</button>
+  </div>
+  
+   <div class="cont_form_sign_up">
+<a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+     <h2>Register</h2>
+<input type="text" placeholder="Email" />
+<input type="text" placeholder="Username" />
+<input type="password" placeholder="Password" />
+<input type="password" placeholder="Confirm Password" />
+<button class="btn_sign_up" onclick="cambiar_sign_up()">Register</button>
+
+    
+
+     
+  </div>
+
+    </div>
+    
+  </div>
+ </div>
+
+ <script type="text/javascript">
+function cambiar_login() {
+  document.querySelector('.cont_forms').className = "cont_forms cont_forms_active_login";  
+document.querySelector('.cont_form_login').style.display = "block";
+document.querySelector('.cont_form_sign_up').style.opacity = "0";               
+
+setTimeout(function(){  document.querySelector('.cont_form_login').style.opacity = "1"; },400);  
+  
+setTimeout(function(){    
+document.querySelector('.cont_form_sign_up').style.display = "none";
+},200);  
+  }
+
+function cambiar_sign_up(at) {
+  document.querySelector('.cont_forms').className = "cont_forms cont_forms_active_sign_up";
+  document.querySelector('.cont_form_sign_up').style.display = "block";
+document.querySelector('.cont_form_login').style.opacity = "0";
+  
+setTimeout(function(){  document.querySelector('.cont_form_sign_up').style.opacity = "1";
+},100);  
+
+setTimeout(function(){   document.querySelector('.cont_form_login').style.display = "none";
+},400);  
+
+
+}    
+
+
+
+function ocultar_login_sign_up() {
+
+document.querySelector('.cont_forms').className = "cont_forms";  
+document.querySelector('.cont_form_sign_up').style.opacity = "0";               
+document.querySelector('.cont_form_login').style.opacity = "0"; 
+
+setTimeout(function(){
+document.querySelector('.cont_form_sign_up').style.display = "none";
+document.querySelector('.cont_form_login').style.display = "none";
+},500);  
+  
+  }</script>
+
+
+		<div class="message" style="position:relative;top:-200px;left:800px;">
+
+		
+			
+
+	<div class = "slider">
+		<figure class="fig">
+			<img src = "c.png">
+			<img src = "java.png">
+			<img src = "php.png">
+			<img src = "python.png">
+			
+		</figure>
+	</div>
+
+
+
+<a href="/join" class="message-button button" style="padding-top:8px;">START</a>
+		</div>
+		<div class="award">
+			
+		</div>
+	</section>
+
+	<section class="blog-posts">
+		<h2>HEADING</h2>
+		<ul>
+			<li>
+				<h3> Data Structures and Algorithms Online Courses : Free and Paid<span class="blog-date">January 29th, 2018</span></h3>
+				<article class="excerpt">Data Structures and Algorithms are one of the most important skills that every computer science student must have. It is often seen that people with…</article>
+				<a href="/blog" class="read-more-article">Read More</a>
+				<a href="/join" class="message-button button" style="padding-top:8px;">START</a>
+			</li>
+			<li>
+				<h3>Must Do Coding Questions for Companies like Amazon, Microsoft, Adobe, … <span class="blog-date">January 20th, 2018</span></h3>
+				<article class="excerpt">As the placement season is back so are we to help you ace the interview. We have selected some most commonly asked and must do…</article>
+				<a href="/blog" class="read-more-article">Read More</a>
+				<a href="/join" class="message-button button" style="padding-top:8px;">START</a>
+			</li>
+		</ul>
+	</section>
+
+	<section class="news">
+		<h2>HEADING</h2>
+		<ul>
+			<li>
+				<h3>Must Do Questions for Companies like TCS, CTS, HCL, IBM …</h3>
+				<article class="excerpt">As the placement season is back so are we to help you ace the interview. We have selected some most commonly asked and must do…</article>
+				<a href="/blog" class="read-more-article">Read More</a>
+				<a href="/" class="message-button button" style="padding-top:8px;">START</a>
+			</li>
+			<li>
+				<h3>Node.js Events</h3>
+				<article class="excerpt">According to the official documentation of Node.js, it is an asynchronous event-driven JavaScript runtime. Node.js has an event-driven architecture which can perform asynchronous tasks. Node.js… </article>
+				<a href="/blog" class="read-more-article">Read More</a>
+				<a href="/join" class="message-button button" style="padding-top:8px;">START</a>
+			</li>
+		</ul>
+	</section>
+
+	<aside class="side-bar">
+		<h1>ADVERTISEMENT</h1>
+		<img class="critter-pic" src="">
+		
+	</aside>
+
+	<footer class="main-footer">
+		<nav class="footer-nav">
+ 			<ul>
+				<li><a href="/">company</a></li>
+				<li><a href="/">learn</a></li>
+				<li><a href="/">practise</a></li>
+				<li><a href="/">Contribute</a></li>
+				
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</nav>
+		<p class="copyright">Address</p>
+	</footer>
+
+</body>
+</html>
+  
+  
+
+</body>
+
+</html>
